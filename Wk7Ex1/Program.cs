@@ -20,6 +20,7 @@ namespace Wk7Ex1
                 int wordCount = CountWords(fileName);
                 // Display the word count
                 Console.WriteLine($"Total word count: {wordCount}");
+                Console.ReadLine(); 
             }
             // Catch the exception and display the error message
             catch (Exception er)
